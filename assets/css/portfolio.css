@@ -1,8 +1,31 @@
+body{
+    background-image: url(../images/green_cup.png);
+    margin: 0px;
 
-h1{
-    display:flex;
 }
+
+section{
+    display:flex;
+    justify-content: center;
+    padding-top: 130px;
+}
+h2{
+    width: 90%;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom-style: solid;
+    border-color: #dddddd;
+    color:#4aaaa5;
+    padding: 30px 0px 30px 0px;
+
+
+}
+
 .content{
+     /*So I overheard using z-index is bad practice, 
+     but my portfolio images kept going over my nav bar. How can I stop this 
+     without using z-index?*/
+    z-index: -1;
     background-color: #ffffff;
     border-color: #dddddd;
     width: 960px;
@@ -13,3 +36,53 @@ h1{
     margin: 40px;
     
 }
+.projects 
+{
+    overflow: auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project-1{
+    margin: 10px 40px 10px 40px;
+    position: relative;
+
+}
+.project-2{
+    margin: 10px 40px 10px 40px;
+    position: relative;
+    
+}
+.project-3{
+    margin: 10px 40px 10px 40px;
+    position: relative;
+    
+}
+.project-4{
+    margin: 10px 40px 10px 40px;
+    position: relative;
+    
+}
+.project-5{
+    margin: 10px 40px 10px 40px;
+    position: relative;
+    
+}
+h3{
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    background-color: #4aaaa5;
+    padding: 10px 0px 10px 0px;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+

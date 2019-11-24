@@ -1,10 +1,82 @@
+body{
+    background-image: url(../images/green_cup.png);
+    margin: 0px;
+
+}
+
+section{
+    display:flex;
+    justify-content: center;
+    padding-top: 130px;
+}
+h2{
+    width: 90%;
+    height: 28px;/*For some reason needed this to make it uniform with other pages*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom-style: solid;
+    border-color: #dddddd;
+    color: #4aaaa5;
+    padding: 30px 0px 30px 0px;
+
+
+}
+.content
+{
+    background-color: #ffffff;
+    border-color: #dddddd;
+    width: 960px;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px;
+    
+}
+
+form{
+    width:960px;
+    flex-direction: column;
+    width: 960px;
+    display: flex;
+    align-items: center;
+}
+
+p{
+    display: flex;
+    align-self: flex-start;
+    padding-left: 48px;
+    color: #777777;
+    
+}
 #name{
     width:90%;
+    display: flex;
+    align-items: flex-start;
+    border: #dddddd 1px solid;
 }
 #email{
     width:90%;
+    display: flex;
+    align-items: flex-start;
+    border: #dddddd 1px solid;
 }
 #message{
     width:90%;
     height:100px;
+    display: flex;
+    align-items: flex-start;
+    border: #dddddd 1px solid;
+}
+
+input[type=submit]
+{
+    margin:5px;
+    color:#ffffff;
+    border:none;
+    background-color:#4aaaa5;
+    display: flex;
+    align-self: flex-start;
+    padding: 5px 10px 5px 10px;
+    margin-left: 47px;
+    
 }
