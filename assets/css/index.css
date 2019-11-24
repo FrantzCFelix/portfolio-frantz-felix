@@ -1,0 +1,48 @@
+
+
+
+
+body{
+    background-image: url(../images/green_cup.png);
+    margin: 0px;
+
+}
+
+section{
+    display:flex;
+    justify-content: center;
+}
+
+h2{
+    width: 90%;
+    margin-left:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom-style: solid;
+    border-color: #dddddd;
+    color:#4aaaa5;
+    
+
+}
+
+.content{
+    background-color: #ffffff;
+    border-color: #dddddd;
+    width: 960px;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px;
+    
+}
+
+.head-shot{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+p{
+    font-family: Arial, 'helvetica Neue', Helvetica, sans-serif;
+    margin: 16px;
+}

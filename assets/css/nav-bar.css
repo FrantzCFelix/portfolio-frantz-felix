@@ -1,0 +1,55 @@
+header{
+    position: fixed;
+}
+
+.name-bar{
+    
+    display:flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-bottom: #cccccc solid;
+}
+nav{
+    display:flex;
+    align-items: center;
+}
+h1{
+    background-color:#4aaaa5;
+    color:#ffffff;
+    padding:20px;
+    margin:0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#portfolio{
+    border-left-style: solid;
+    border-left-color: #dddddd;
+}
+#contact{
+    border-left-style: solid;
+    border-left-color: #dddddd;
+}
+
+a{
+    padding: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a:link{
+   color:gray;
+   text-decoration: none;
+
+}
+a:visited{
+   color:gray;
+   text-decoration: none;
+
+}
+a:hover{
+   color:gray;
+   text-decoration: none;
+}
+a:active{
+   color:gray;
+   text-decoration: none;
+}

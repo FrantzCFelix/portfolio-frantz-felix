@@ -1,0 +1,15 @@
+
+h1{
+    display:flex;
+}
+.content{
+    background-color: #ffffff;
+    border-color: #dddddd;
+    width: 960px;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px;
+    
+}
